@@ -18,7 +18,6 @@ public final class HabitContract {
      */
     public static class UserEntry implements BaseColumns {
         public static final String TABLE_NAME = "user";
-        public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_USER_NAME = "name";
         public static final String COLUMN_USER_DOB = "DOB";
         public static final String COLUMN_USER_EMAIL = "email";
@@ -35,7 +34,6 @@ public final class HabitContract {
      */
     public static class ActivityEntry implements BaseColumns {
         public static final String TABLE_NAME = "activity";
-        public static final String _ID = BaseColumns._ID;
         public static final String COLUMN_ACTIVITY_DESC = "description";
         public static final String COLUMN_ACTIVITY_DATE = "date";
         public static final String COLUMN_ACTIVITY_DURATION = "duration"; // in hour
